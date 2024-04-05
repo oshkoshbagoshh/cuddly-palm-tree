@@ -25,6 +25,21 @@ class Subscriber(models.Model):
     
 
 # Email Class 
+class Email(models.Model):
+    campaign = models.ForeignKey(Campaign, on_delete=models.CASCADE)
+    subject = models.CharField(max_length=255)
+    body = models.TextField()
+    sent_at = models.DateTimeField(auto_now_add=True)
+    recipients = models.ManyToManyField(Subscriber,related_name='emails')
 
 # Email Recipient Class
+class EmailRecipient(models.Model):
+    email = models.ForeignKey(Email, on_delete=models.CASCADE)
+    subscriber = models.ForeignKey(Subscriber, on_delete=models.CASCADE)
+    opened = models.BooleanField(default=False)
+    clicked = models.BooleanField(default=False)
+    
+    
+    def __str__(self):
+        return f'{self.email} - {self.subscriber}'
 
