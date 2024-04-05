@@ -1,0 +1,30 @@
+Django>=3.2,<4.0
+djangorestframework>=3.12.4
+gunicorn>=20.0.4
+dj-database-url>=0.5.0
+psycopg2>=2.8.6  # For PostgreSQL database
+pandas>=1.2.4
+matplotlib>=3.4.2
+Faker>=8.1.1  # For generating fake data
+python-dotenv>=0.19.0
+
+beautifulsoup4==4.12.2
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
+numpy==1.26.2
+pandas==2.1.4
+python-dateutil==2.8.2
+pytube==15.0.0
+pytz==2023.3.post1
+requests==2.31.0
+six==1.16.0
+soupsieve==2.5
+tzdata==2023.3
+urllib3==2.1.0
+
+# Adding libraries for OpenOffice document handling and PDF creation
+odfpy==1.4.1  # Check for the latest version for OpenDocument formats
+reportlab==3.6.11  # Check for the latest version for PDF generation
+
+# Note: bs4 is an alias for beautifulsoup4, so you don't need it separately.
