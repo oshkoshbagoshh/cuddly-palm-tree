@@ -1,0 +1,6 @@
+<!-- documents.html -->
+
+{% for document in documents %}
+    <p>{{ document.file.name }}</p>
+    <a href="{% url 'download_document' document.id %}">Download</a>
+{% endfor %}
