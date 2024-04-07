@@ -1,0 +1,111 @@
+{
+  "menu": {
+    "breweryName": "MSFLESHMAN'S",
+    "note": "We Brew EVERYTHING in-house! Cheers!",
+    "paymentMethods": "CASH OR CARD ACCEPTED - SORRY NO APPLE PAY - CC FoolS%",
+    "clubInvitation": "Are you a Pub Clubber? Ask for details and join the Cool Kids Club!",
+    "beers": [
+      {
+        "name": "White Horse",
+        "style": "English Pale",
+        "abv": "4.5%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "nutty / amber / malty / Bronze Medal US Beer Open",
+        "type": "CASK"
+      },
+      {
+        "name": "MSB",
+        "style": "English Porter",
+        "abv": "4.50%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "dark / roasty / malty"
+      },
+      {
+        "name": "Tall Mast",
+        "style": "English IPA",
+        "abv": "5.4%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "carthy / hoppy / Gold Medal Winner US Beer Open"
+      },
+      {
+        "name": "Firken Friday",
+        "style": "Maple Brown",
+        "abv": "4.30%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "Maple Brown"
+      },
+      {
+        "name": "Blazy*",
+        "style": "Fruited Hazy IPA",
+        "abv": "5.6%",
+        "sizes": {
+          "16oz": "$10",
+          "10oz": "$8"
+        },
+        "description": "Blood Orange / hazy / IPA / Bloody Great!"
+      },
+      {
+        "name": "Alter Ego",
+        "style": "Hazy IPA",
+        "abv": "5.6%",
+        "sizes": {
+          "16oz": "$10",
+          "10oz": "$8"
+        },
+        "description": "fruity / hazy / juicy"
+      },
+      {
+        "name": "547*",
+        "style": "West Coast IPA",
+        "abv": "8.4%",
+        "sizes": {
+          "16oz": "$10",
+          "10oz": "$8"
+        },
+        "description": "hoppy / bitter / bold / will Ring your bell!"
+      },
+      {
+        "name": "The Hildy Pils",
+        "style": "Czech Style Pilsner",
+        "abv": "5.5%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "Refreshing / Crisp / Perfuming hop notes over malt flavors"
+      },
+      {
+        "name": "Something Light",
+        "style": "Vienna Lager",
+        "abv": "5.4%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "toasty / caramel / malty"
+      },
+      {
+        "name": "Pirates Cove Amber",
+        "style": "Unfiltered Pirates Cove",
+        "abv": "5.4%",
+        "sizes": {
+          "16oz": "$8",
+          "10oz": "$6"
+        },
+        "description": "more raw and bready / get it while it's here!"
+      }
+    ]
+  }
+}

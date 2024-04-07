@@ -1,0 +1,20 @@
+
+****************
+BENJI
+***************
+
+
+- SMS Text
+- Scheling orders bi-weekly
+- Pub Clubbers (manually)
+- campaigns
+- custom emails
+- mailing list from mailchimp (taylored stuff to them)
+- Birthday send out an email (personal)
+- favorite beer?
+- ask them for more stuff when they signup and integrate it into the google sheet
+
+- BOGO
+- QR CODE 
+
+- Total time spent doing manual work:  15 hours per pay period (every 2 weeks)
