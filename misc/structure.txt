@@ -1,0 +1,32 @@
+your_flask_app/
+│
+├── app/
+│   ├── __init__.py          # Initializes your Flask app and brings together other components
+│   ├── models.py            # Contains your SQLAlchemy models
+│   ├── forms.py             # Contains your WTForms forms
+│   ├── views.py             # Or controllers.py, contains your route definitions
+│   ├── templates/           # Contains Jinja2 templates
+│   │   ├── layout.html      # Base layout
+│   │   ├── index.html       # Main page template
+│   │   └── ...
+│   ├── static/
+│   │   ├── css/             # CSS files, potentially from Bootstrap or custom
+│   │   │   └── ...
+│   │   ├── js/              # JavaScript files
+│   │   │   └── ...
+│   │   └── img/             # Images and icons used in your application
+│   └── utilities/           # Helper modules or utilities for your app (optional)
+│       └── ...
+│
+├── migrations/              # Folder for Alembic database migrations
+│   └── ...
+│
+├── tests/                   # Contains your unit and integration tests
+│   ├── __init__.py
+│   ├── test_models.py
+│   └── test_views.py
+│
+├── requirements.txt         # Python dependencies file for pip
+├── config.py                # Configuration file to store settings
+├── run.py                   # Entry point to run your Flask application
+└── README.md                # Project overview and instructions
