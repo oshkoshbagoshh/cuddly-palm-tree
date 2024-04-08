@@ -1,10 +1,5 @@
-- 
 
-
-
-
-
-Based on the selected text, it seems you're looking to create a Flask web application that allows users to upload spreadsheet files, processes these files to generate reports, and then provides these reports as downloadable PDFs. The application will utilize Python libraries such as Flask, pandas, Matplotlib, and PyFPDF for various functionalities. Let's continue from where the text left off, focusing on processing spreadsheets with pandas, generating visualizations with Matplotlib, creating PDF reports with PyFPDF, and integrating everything within a Flask application.
+<!-- Based on the selected text, it seems you're looking to create a Flask web application that allows users to upload spreadsheet files, processes these files to generate reports, and then provides these reports as downloadable PDFs. The application will utilize Python libraries such as Flask, pandas, Matplotlib, and PyFPDF for various functionalities. Let's continue from where the text left off, focusing on processing spreadsheets with pandas, generating visualizations with Matplotlib, creating PDF reports with PyFPDF, and integrating everything within a Flask application. -->
 
 ### Continuing from Processing Spreadsheets with Pandas
 
